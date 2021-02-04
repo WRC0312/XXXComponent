@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'XXXComponent_Example' do
-  pod 'XXXComponent', :path => '../'
-
+#  pod 'XXXComponent', :path => '../'
+pod 'XXXComponent', :git => 'https://github.com/WRC0312/XXXComponent.git', :branch => 'master'
   target 'XXXComponent_Tests' do
     inherit! :search_paths
 

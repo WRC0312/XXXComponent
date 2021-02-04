@@ -2,15 +2,21 @@ PODS:
   - XXXComponent (0.1.0)
 
 DEPENDENCIES:
-  - XXXComponent (from `../`)
+  - XXXComponent (from `https://github.com/WRC0312/XXXComponent.git`, branch `master`)
 
 EXTERNAL SOURCES:
   XXXComponent:
-    :path: "../"
+    :branch: master
+    :git: https://github.com/WRC0312/XXXComponent.git
+
+CHECKOUT OPTIONS:
+  XXXComponent:
+    :commit: 9e4c129a7dc84cf9196af7e2567b08d016e1005a
+    :git: https://github.com/WRC0312/XXXComponent.git
 
 SPEC CHECKSUMS:
   XXXComponent: da461dac6ec406dd4b9350436ca6ffee2c28c132
 
-PODFILE CHECKSUM: fcc223d23b567a1065f9172330570aba03a50002
+PODFILE CHECKSUM: daea3fa70bb256ad7e968fbd2ef14e29a3ea605a
 
 COCOAPODS: 1.10.1
