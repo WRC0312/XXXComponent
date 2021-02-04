@@ -1,0 +1,16 @@
+PODS:
+  - XXXComponent (0.1.0)
+
+DEPENDENCIES:
+  - XXXComponent (from `../`)
+
+EXTERNAL SOURCES:
+  XXXComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXXComponent: da461dac6ec406dd4b9350436ca6ffee2c28c132
+
+PODFILE CHECKSUM: fcc223d23b567a1065f9172330570aba03a50002
+
+COCOAPODS: 1.10.1
